@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bestsellers — Online Bookstore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="scss/style.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="logo">LOGO</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#" class="nav__link">Home</a></li>
+          <li><a href="#" class="nav__link">Categories</a></li>
+          <li><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <form class="search-form" role="search">
+        <input type="search" class="search-form__input" placeholder="Search..." aria-label="Search" />
+        <button type="submit" class="search-form__btn">Search</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h1 class="hero__title">Bestsellers</h1>
+      <p class="hero__subtitle">Explore our most popular books</p>
+    </section>
+
+    <section class="content">
+      <div class="content__inner">
+
+        <div class="featured">
+          <h2 class="section-title">Featured Books</h2>
+          <ul class="featured__list">
+            <li class="book-card">
+              <img src="https://picsum.photos/seed/book1/100/130" alt="Featured book cover" class="book-card__img" />
+              <div class="book-card__info">
+                <h3 class="book-card__title">The Silent Forest</h3>
+                <p class="book-card__author">Anna Blackwood</p>
+                <p class="book-card__price">$14.99</p>
+              </div>
+            </li>
+            <li class="book-card">
+              <img src="https://picsum.photos/seed/book2/100/130" alt="Featured book cover" class="book-card__img" />
+              <div class="book-card__info">
+                <h3 class="book-card__title">Deep Waters</h3>
+                <p class="book-card__author">James Corrigan</p>
+                <p class="book-card__price">$12.99</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="right-col">
+
+          <div class="categories">
+            <h3 class="categories__title">Top Categories</h3>
+            <p class="lorem">
+              lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+              incididunt ut labore et. lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+              incididunt ut labore et
+            </p>
+          </div>
+
+          <div class="new-arrivals">
+            <h2 class="section-title">New Arrivals</h2>
+            <ul class="new-arrivals__list">
+              <li class="arrival-card">
+                <img src="https://picsum.photos/seed/new1/90/120" alt="New arrival book" />
+                <span>City of Dust</span>
+              </li>
+              <li class="arrival-card">
+                <img src="https://picsum.photos/seed/new2/90/120" alt="New arrival book" />
+                <span>The Last Code</span>
+              </li>
+              <li class="arrival-card">
+                <img src="https://picsum.photos/seed/new3/90/120" alt="New arrival book" />
+                <span>Red Horizon</span>
+              </li>
+              <li class="arrival-card">
+                <img src="https://picsum.photos/seed/new4/90/120" alt="New arrival book" />
+                <span>Salt & Stone</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <ul class="footer__links">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+    <span class="footer__copy">© 2026 &nbsp;|&nbsp; Федів А.</span>
+  </footer>
+
+</body>
+
+</html>
